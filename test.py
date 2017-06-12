@@ -12,4 +12,4 @@ def host_type():
 	run('dir')
 
 def listadir():
-    local("dir")
+    local("ls")
