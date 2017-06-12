@@ -2,7 +2,7 @@
 from fabric.api import run,env
 
 #user of system
-env.user='meupc'
+env.user='root'
 
 def host_type():
 	#run('uname -s')
