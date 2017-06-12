@@ -1,4 +1,5 @@
-#fab -f test.py 192.168.19.102 listadir
+#fab -f test.py -H 192.168.19.102 listadir
+
 
 
 from fabric.api import run,env
